@@ -1,0 +1,56 @@
+body {
+    background: #1C1C1C;
+}
+
+h1 {
+    color: #F3F4F6;
+    margin: 0 0 5px 0 ;
+}
+
+p {
+    color: #D5D4D8;
+    font-style: oblique;
+    margin: 0 0 20px 0;
+}
+
+button {
+    background-color: #10B981;
+    color: #F3F4F6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #1F2937;
+    border-radius: 10px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin:  40px 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #374151;
+}
+
+
+#passwords {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    background: #273549;
+    color: #10B981;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
